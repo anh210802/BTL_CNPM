@@ -1,0 +1,74 @@
+@media (max-width: 1200px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+p {
+    font-size: 13px;
+}
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.breadcrumb-item a {
+    color: #141619;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h4 {
+    font-weight: 700;
+}
+
+footer .nav-link {
+    color: rgba(255, 255, 255, 0.55);
+}
+footer .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+button .nav-link {
+    color: rgb(0,0,0);
+}
+button .nav-link:hover {
+    color: rgb(112,128,144);
+}
+#logo {
+    width: 2%;
+    margin-right: 10px;
+}
+.printForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.printB {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: 	#000000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.payPage {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: 	#000000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 50%
+}
